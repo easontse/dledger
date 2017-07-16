@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^ledger/', include('ledger.urls')),
+    url(r'^ledger/', include('dashboard.urls')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'$', views.index),
 ]

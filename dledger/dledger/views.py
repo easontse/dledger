@@ -1,4 +1,4 @@
 from django.shortcuts import redirect
 
 def index(request):
-    return redirect('ledger_index')
+    return redirect('dashboard_index')
